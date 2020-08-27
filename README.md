@@ -36,21 +36,17 @@ How To Use lightbox library in your Angular project
 
 3. Create div element with id="lightbox-wrapper" in your html file, and add images to be included in the lighbox. Make sure to refer the image correctly and add class my-lightbox.
 
-  &lt;div id=&quot;lightbox-wrapper&quot;&gt;
-    &lt;img src=&quot;assets/images/image1.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
-    &lt;img src=&quot;assets/images/image2.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
-    &lt;img src=&quot;assets/images/image3.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
-    &lt;img src=&quot;assets/images/image4.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
-    &lt;img src=&quot;assets/images/image5.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
-  &lt;/div&gt;
+	  &lt;div id=&quot;lightbox-wrapper&quot;&gt;
+	    &lt;img src=&quot;assets/images/image1.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
+	    &lt;img src=&quot;assets/images/image2.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
+	    &lt;img src=&quot;assets/images/image3.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
+	    &lt;img src=&quot;assets/images/image4.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
+	    &lt;img src=&quot;assets/images/image5.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
+	  &lt;/div&gt;
 
   Also please not that library will use this to determine which images need to be included in the lightbox. Location of this wrapper does not matter as long as it is within html file.
 
 4. Lastly, Add lib-my-demo-lib tag in your view where you expect to render the gallery(lightbox-demo/src/app/app.component.html)
 
-  &lt;lib-my-demo-lib&gt;&lt;/lib-my-demo-lib&gt;
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+	  &lt;lib-my-demo-lib&gt;&lt;/lib-my-demo-lib&gt;
 
