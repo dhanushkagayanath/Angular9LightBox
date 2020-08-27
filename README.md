@@ -44,7 +44,7 @@ How To Use lightbox library in your Angular project
 	    &lt;img src=&quot;assets/images/image5.jpg&quot; class=&quot;my-lightbox&quot; /&gt;<br>
 	  &lt;/div&gt;
 
-  Also please not that library will use this to determine which images need to be included in the lightbox. Location of this wrapper does not matter as long as it is within html file.
+	  Also please not that library will use this to determine which images need to be included in the lightbox. Location of this wrapper does not matter as long as it is within html file.
 
 4. Lastly, Add lib-my-demo-lib tag in your view where you expect to render the gallery(lightbox-demo/src/app/app.component.html)
 
