@@ -1,0 +1,4 @@
+
+<div class="" *ngIf="imagesArray && imagesArray.length>0" >
+    <img [src]="item.src" style="max-height: 200px;" class=""  (click)="OnButtonClick($event,item)"  *ngFor="let item of imagesArray;let i = index" [attr.data-lightbox-index]="i"/>
+</div>
